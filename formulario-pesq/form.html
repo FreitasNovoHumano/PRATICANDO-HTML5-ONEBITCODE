@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../estilo/style.css" />
+  </head>
+  <body>
+    <div>
+      <a href="../tabela/tabela.html" class="btn btn_green">Tabela-html5</a
+      >&nbsp;-
+      <a href="../formulario-html/form.html" class="btn btn_green"
+        >Formulário-html5</a
+      >
+    </div>
+    <hr />
+    <h3>Encontre no google</h3>
+    <!--Envia o Form para o Google. Busca o resultado no Google-->
+    <form action="https://www.google.com/search" method="get">
+      <label for="q">O que deseja pesquisar?</label>
+      <!--required obriga preencher o campo de pesquisa-->
+      <input type="text" id="q" name="q" placeholder="Nasa, Spacex" required />
+      <input type="submit" value="Pesquisar" />
+    </form>
+  </body>
+</html>

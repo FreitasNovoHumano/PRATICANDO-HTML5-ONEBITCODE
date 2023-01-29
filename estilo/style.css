@@ -1,0 +1,37 @@
+a {
+  color: blue;
+  font-size: 20px;
+}
+
+a:hover {
+  color: #1873ba;
+  text-decoration: none;
+}
+
+span {
+  color: #990055;
+}
+
+li {
+  list-style-type: none;
+}
+
+.btn {
+  padding: 8px 20px;
+  font-weight: normal;
+  margin: 20px 4px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn_green {
+  background-color: #00cf3e;
+  color: #fff;
+}
+
+.btrn_gren:hover {
+  background-color: #00cc66;
+}
