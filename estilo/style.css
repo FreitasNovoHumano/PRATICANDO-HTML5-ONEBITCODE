@@ -5,7 +5,7 @@ a {
 
 a:hover {
   color: #1873ba;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 span {
@@ -45,7 +45,6 @@ li {
 }
 
 .text-content {
-  font-size: 22px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
